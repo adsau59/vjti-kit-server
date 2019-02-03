@@ -1,0 +1,75 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "VJTI Kit",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.e291f30e740b28ae1662.js",
+        "/polyfills.4a68e5b4d8bcc303b21f.js",
+        "/runtime.ec2944dd8b20ec099bf3.js",
+        "/styles.0d1e11468e464201069e.css"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/bg.jpg",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/bg.jpg": "e5fbfe91b34f42e9b187430770316848f7133998",
+    "/assets/icons/icon-128x128.png": "88769e2a3e8e407ac7a7a5de8c52fcbc3eda3060",
+    "/assets/icons/icon-144x144.png": "dd382925ac1cff52488d2d36a72ba1648c1d0e1e",
+    "/assets/icons/icon-152x152.png": "3343e0be4f9ef3fbd694845dba4d350452b6f81b",
+    "/assets/icons/icon-192x192.png": "3fa7fce7f513ebd85c3b6e480c35f7b0c4d53de2",
+    "/assets/icons/icon-384x384.png": "4ca624ccd05faa166aa4079fba296905feefc5b8",
+    "/assets/icons/icon-512x512.png": "244669981a46a69a40a25d0eff8647c9193dd589",
+    "/assets/icons/icon-72x72.png": "eba9b1c16028db99a80ba6fcf50a3ab2ab980141",
+    "/assets/icons/icon-96x96.png": "dd26e7131cdf7066b2a5413b26e954e0d17e5dc9",
+    "/favicon.ico": "412d0e51d4be7870f5f766be7341e178d9ff09f9",
+    "/index.html": "8eea504b26a07aa5d79d4b7f0c63203abe07f610",
+    "/main.e291f30e740b28ae1662.js": "7a72840fdbbfa9d00ba43d88beb93aa8f8d2f7b2",
+    "/polyfills.4a68e5b4d8bcc303b21f.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
+    "/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/styles.0d1e11468e464201069e.css": "5f9b2d082c40c07011c9132e9d3f03f0be14b321"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
